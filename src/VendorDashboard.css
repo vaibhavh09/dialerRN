@@ -1,0 +1,112 @@
+/* Dashboard Layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 100px;
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Sidebar Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-item.active {
+  background-color: #34495e;
+  border-radius: 10px;
+}
+
+/* Sidebar Links */
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  padding: 15px 0;
+  font-size: 14px;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.menu-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.menu-text {
+  font-size: 14px;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: white;
+}
+
+/* Search Bar */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ecf0f1;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.search-icon {
+  margin-right: 8px;
+  color: #7f8c8d;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Bell Icon */
+.bell-icon {
+  font-size: 22px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Page Content */
+.content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100%;
+}
